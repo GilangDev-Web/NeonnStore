@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persetujuan</title>
+    <style>
+        body
+        {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+
+        button
+        {
+            padding: .5em 1.5em;
+            font-size: 1rem;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to top left, crimson, orange);
+            border: none;
+            border-radius: 10px;
+            color: black;
+            cursor: pointer;
+            
+        }
+
+        .syarat
+        {
+            text-align: center;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .syarat2
+        {
+            text-align: center;
+        }
+
+        div {
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+
+    <h1 class="syarat">NO REFFUND</h1>
+    <h2 class="syarat2">Kebijakan Neonn Store</h2>
+    <div>
+        <button onclick="syrt()">Setuju</button>
+        <button onclick="sytr()">Tidak</button>
+
+    </div>
+    
+
+    <script>
+        function syrt()
+        {
+            window.location.href ='neonstore.html'
+        }
+
+        function sytr() 
+        {    
+            window.close();
+        }
+    </script>
+</body>
+</html>
